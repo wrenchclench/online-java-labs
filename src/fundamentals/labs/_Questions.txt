@@ -2,37 +2,56 @@ Answer the following questions:
 
 1.) Using the command line, how do you:
     a. change directories?
+    cd
     b. list the contents of a folder?
+    ls -al
     c. print the path of the current directory?
+    pwd
     d. move a file from one location to the another?
+    mv
     e. copy a file from one location to another?
+    cp
     f. create a file?
+    vim or touch
     g. create a folder?
+    mkdir
     h. delete a file?
+    rm <file>
     i. delete a folder?
+    rm <directory>
     j. print the contents of a file?
+    cat
     k. edit the contents of a file?
+    vim
 
 2.) Why do we use git and Github?
+Collaboration tool. Repository of repositories so groups can work on the same project. Branching model allows people to work on the same thing without working over each other.
 
 3.) What is the general flow of git?
+Initialize, pull, do some work, add to staging area, commit, push
 
 4.) What is the purpose of adding a remote to a local git repository?
+To push to another branch instead of the master where you pulled from.
 
 5.) How do you print a message to the console?
-
+echo
 6.) Where does a program begin its execution?
+After the Main method.
 
 7.) What is a code block and how do you create one?
+Code contained within curly brackets.
 
 8.) What is the idea of variable scope?
+Keep code contained within a class so that other code cannot act upon it or alter it accidentally.
 
 9.) What are semicolons used for?
+Ending statements
 
 10.) What are lines of code indented? When should a line be indented?
+Nested code. Lines should be indented when we have statements/functions with statements.
 
 11.) What does a .java file need to be complied to a .class file before running?
-
+byte code
 
 
 

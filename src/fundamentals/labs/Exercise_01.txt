@@ -6,7 +6,9 @@ Fundamentals Exercise 1: CLI
      3. Inside of folder Terminal_testing,
          a. create 3 new .txt files all with different names
          b. print the directory path
+         /Users/johnbudreski/Desktop/CodingNomads/Terminal_Testing
          c. list the contents of the folder
+         test1.txt    test2.txt    test3.txt
      5. Inside of folder Terminal_testing, create a new folder
      6. Copy a file from Terminal_testing to the new folder
      7. Move a different file from Terminal testing to the new folder

@@ -2,44 +2,71 @@ Answer the following questions:
 
 
 1.) What are the names and uses of Java's eight primitive types?
+Boolean - True or False, Byte - 8bit, Char - character, Double - double precision, float - single precision, int - integer, long - long integer, short - short integer
+
 
 2.) How do you declare and initialize an int variable called "x" with the value 42.
+WIth an assignment statement, int x = 42
 
 3.) What happens if you initialize a double variable with the value of a int?
 
+Nothing
+
+
 4.) How do you set an int variable to the value of a double?
 
+double d = i
+
 5.) What are the 5 arithmetic operators?
++, *, -, /, %
 
 6.) What are Relational operators used for? What is the result of using a relational operator?
+Comparing two things. Boolean.
 
 7.) Demonstrate the use of a Relational operator.
 
+if x > y print " False"
+
 8.) What logical operators used for? What is the result of using a logical operator?
+Evaluating two booleans. Also boolean.
 
 9.) Demonstrate the use of a logical operator.
 
+if x = y | z print "True"
+
 10.) How can you use the shorthand addition operator to add 10 to a variable "x"?
 
+x =+4
+
 11.) What data type is a String?
+object
 
 12.) Are string mutable?
 
+no
 13.) How do you concatenate Strings?
-
+ with a + sign
 14.) Can you cast and int to a String or a String to an int? Why or why not?
+No, strings are not a primitive data type
 
 15.) What is an array?
+A container object that holds a fixed number of values of a single type.
 
 16.) What is the first index of an array?
+A [0]
 
 17.) Can you change the size of an array once it has been declared and initialized?
+no
 
 18.) How do you print the 5th element in an array "exampleArray"?
+exampleArray[5];
 
 19.) What are the two ways you can declare and initialize an array? Demonstrate both.
+type [] array-name = new type[size];
+in[] scores = {4,5,6};
 
 20.) How do you iterate through a multidimensional array?
-
+next
 21.) What is the for-each loop used for?
+indexing
 

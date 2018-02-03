@@ -23,7 +23,10 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int x = 10;
+        double y = x;
+
+        System.out.println(x);
 
     }
 }
