@@ -23,10 +23,11 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        int x = 10;
-        double y = x;
+        double x = 10.5;
+        int y = (int) x;
 
-        System.out.println(x);
+        System.out.println(y);
 
     }
 }
+
