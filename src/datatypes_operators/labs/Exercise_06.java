@@ -19,6 +19,6 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        int[][] twoDArray = new int[5][5];
+
     }
 }

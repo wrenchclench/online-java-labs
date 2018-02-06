@@ -8,4 +8,14 @@ package conditions_loops.labs;
  */
 
 public class Exercise_10 {
+
+    public static void main(String[] args){
+        int i;
+        for (i = 0; i < 100; i++)
+            if (i == 56)
+                continue;
+
+        System.out.println("let's stop at 56 and then keep goin");
+        System.out.println(i);
+    }
 }
