@@ -8,3 +8,31 @@ package objects_classes_methods.labs;
  *      Use System.out.println to demonstrate when the variables are changed.
  *
  */
+
+
+class ClassA {
+    static int x = 10;
+    int y = 5;
+}
+
+class ClassX {
+    public static void main(String[] args) {
+
+        ClassA obj = new ClassA();
+        System.out.println(obj.x);
+        System.out.println(obj.y);
+
+        ClassB object2 = new ClassB();
+        System.out.println(object2.x);
+        System.out.println(object2.y);
+
+    }
+
+}
+
+class ClassB {
+    static int  x = 99;
+    int y = 55;
+
+}
+

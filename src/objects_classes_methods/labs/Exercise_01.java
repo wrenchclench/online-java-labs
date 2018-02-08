@@ -16,4 +16,79 @@ package objects_classes_methods.labs;
  *      Cars, animals, poker games, sports teams, trees, beers, people and so on.
  */
 
+class Player {
+
+     private String lastName; // players last name
+     private String team;    // player teaam
+     private int jerseyNumber;     // player number
+
+    Player(String lastName, String team, int number) {
+        this.lastName = lastName;
+        this.team = team;
+        this.jerseyNumber = number;
+
+    }
+
+    Player(String lastName, int number) {
+        this.lastName = lastName;
+        this.jerseyNumber = number;
+
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getTeam() {
+        return team;
+    }
+
+    public void setTeam(String team) {
+        this.team = team;
+    }
+
+    public int getJerseyNumber() {
+        return jerseyNumber;
+    }
+
+    public void setJerseyNumber(int jerseyNumber) {
+        this.jerseyNumber = jerseyNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "lastName='" + lastName + '\'' +
+                ", team='" + team + '\'' +
+                ", jerseyNumber=" + jerseyNumber +
+                '}';
+    }
+}
+
+
+
+class PlayerDemo {
+    public static void main(String args[]) {
+
+        Player curry = new Player("curry", "GSW", 23);
+        Player james = new Player("James", "cavs", 24);
+
+        System.out.println(curry.getLastName() + ", wearing the number " + curry.getJerseyNumber() + ", plays for " + curry.getTeam());
+        System.out.println(james.getLastName() + ", wearing the number " + james.getJerseyNumber() + ", plays for " + james.getTeam());
+
+        curry.setTeam("Jazz");
+
+
+    }
+}
+
+
+
+
+
+
 
