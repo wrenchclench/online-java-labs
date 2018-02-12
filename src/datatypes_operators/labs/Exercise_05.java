@@ -10,20 +10,37 @@ package datatypes_operators.labs;
 
 public class Exercise_05{
 
+    public static int  findIndex (int[] array, int t) {
+        if (array == null) return -1;
+        int len = array.length;
+        int i = 0;
+        while (i < len) {
+            if (array[i] == t) return i;
+            else i = i + 1;
+        }
+        return -1;
+    }
+
     public static void main(String[] args)
             throws java.io.IOException{
 
             int[] array = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
-
             System.out.print("Enter number between 1 and 10: ");
             int n = System.in.read();
+
+        System.out.println("Index position of " + n +" is: " + findIndex(array, n));
+
+            }
+
+
 
 
 
 
     }
-}
+
+
 
 
 /** public class Exercise6 {

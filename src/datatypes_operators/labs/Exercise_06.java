@@ -17,8 +17,31 @@ package datatypes_operators.labs;
 
 public class Exercise_06 {
 
+    public static void printRow(int[] row) {
+        for (int i : row) {
+            System.out.print(i);
+            System.out.print("\t");
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
 
+        int t,i;
+        int table [][] = new int [5][5];
+
+        for(t = 0; t < 5; ++t) {
+            for (i = 0; i <5; ++i){
+                table[t][i] = (t*5) +i*3;
+
+            }
+        }
+        for (int[] row : table){
+            printRow(row);
+        }
 
     }
 }
+
+
+
