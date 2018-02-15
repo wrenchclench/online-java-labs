@@ -18,3 +18,9 @@ package packages_interfaces.labs;
  */
 
 
+
+//Interface for an Animal
+
+
+
+

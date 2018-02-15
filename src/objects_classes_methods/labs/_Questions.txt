@@ -4,6 +4,7 @@ Answer the following questions:
 1.) What is an instance variable?
 
 2.) How do you create an object of a class Vehicle?
+Vehicle myCar = new Vehicle ();
 
 3.) What is a reference variable? How is it different from a primitive type?
 

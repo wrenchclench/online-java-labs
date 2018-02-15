@@ -2,13 +2,25 @@ Answer the following questions:
 
 1.) What is a package?
 
+A grouping of related pieces of a program.
+
 2.) How to you import a package?
+
+package packagename;
 
 3.) What structure do packages mimic?
 
+Directories
+
 4.) How do do you compile a .java file in a package "solo_package" from the command line?
+
+javac solo_package/someFile.java
 
 5.) What if the above package is in a package "parent_package". Where do you need to be to
     compile a .java file in "solo_package" from the command line?
 
+    In parent_package.
+
 6.) What extra layer do packages add to access control?
+
+an additional layer on top of classes.

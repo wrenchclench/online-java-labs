@@ -2,15 +2,30 @@ Answer the following questions:
 
 1.) What is an interface?
 
+A way to specify what must be done to run a program but not specifically how it is done.
+
 2.) Why are interfaces implemented?
+
+To define the methods of a class.
 
 3.) What is the implement keyword used for?
 
+To assign an interface to a class.
+
 4.) How many interfaces can class implement?
+
+One
 
 5.) Write a simple interface with one method.
 
+public interface Demo {
+    boolean isAlive ();
+
+    }
+
 6.) Think of a real world application where interfaces are used. Describe it's purpose.
+
+creating an account object in a CRM.
 
 7.) What is wrong with the following interface?
 
