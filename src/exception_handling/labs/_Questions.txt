@@ -2,23 +2,45 @@ Answer the following questions:
 
 1.) What is exception handling?
 
+A subsystem for users to handle run time errors.
+
 2.) What is the exception hierarchy? What is the difference between the Exception class and the Error class?
+
+Throwable > Exception > Error. An error is an error in the JVM. An Exception is a run time error in your code.
 
 3.) What is a try/catch?
 
+A code block that monitors code for errors and then provides a handler for those errors.
+
 4.) What exceptions have you come across thus far?
+
+a bunch. array out of bounds. java expected ';' etc. etc.
 
 5.) How many catch statement can you have following a try?
 
+unlimited.
+
 6.) How many try statements can you have preceding a catch?
+
+one.
 
 7.) What does the finally statement do in a try/catch/finally block?
 
+executes a handler once control has exited the try catch.
+
 8.) Can you nest exceptions? If so, when would you nest an exception?
+
+yes. when you want to place exceptions for specific errors.
 
 9.) If you want to catch an ArrayIndexOutOfBounds exception and an Exception exception,
     which should you catch first? Why?
 
+    The Array out of bounds because it is more specific.
+
 10.) How do you rethrow and exception? Why would you rethrow an exception?
 
+throw exc. if you want multiple handlers to access the exception.
+
 11.) What is the purpose of the throws keyword?
+
+to handle an exception a method generates outside of itself.

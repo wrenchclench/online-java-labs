@@ -9,9 +9,13 @@ package inheritance.labs;
  *      2) Each class should have at least two instance variable, all private.
  *      3) Create getters and setters for all instance variables and demonstrate setting superclass
  *          variables from a subclass
+ *
+ *
  *      4) Demonstrate the use of (non getter and setter) methods in a superclass from a subclass.
  *      5) Add constructors to each class and demonstrate the use of a superclass constructor
  *          from a subclass.
+ *
+ *
  *      6) Demonstrate constructor overloading and the use of the "super" keyword.
  *      7) Demonstrate method overloading.
  *
@@ -23,4 +27,7 @@ package inheritance.labs;
  *
  *
  */
+
+
+
 
