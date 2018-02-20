@@ -2,10 +2,20 @@ Answer the following questions:
 
 1.) What is a thread and why do we use them?
 
+A task that is running concurrently with another task. This allows a program to multitask.
+
 2.) What are the two ways to create a thread?
+
+Extend the Thread class or Implement the Runnable interface.
 
 3.) How do you start a thread using the Runnable interface?
 
+Using the run() method.
+
 4.) How do you start a thread using the Thread class?
 
+extends Thread
+
 5.) How do you change a thread priority?
+
+Using the setPriority() method.

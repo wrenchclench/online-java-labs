@@ -30,7 +30,7 @@ class CopyFile {
         // Copy a File.
         try {
             // Attempt to open the files.
-            fin = new FileInputStream(args[0]);
+            fin = new FileInputStream("ioDemo.txt");
             fout = new FileOutputStream(args[1]);
 
             do {

@@ -2,18 +2,42 @@ Answer the following questions:
 
 1.) What is a byte stream?
 
+Designed for input and out put of binary data.
+
 2.) What is a character stream?
 
+Designed for input and output of character data.
+
 3.) What two classes are at the top of the the byte stream hierarchy?
+InputStream and OutputStream
 
 4.) What two classes are at the top of the the character stream hierarchy?
 
+Reader and Writer
+
 5.) List at least three byte stream classes.
+
+PrintStream
+InputStream
+DataOutputStream
 
 6.) List at least three character stream classes.
 
+BufferedReader
+BufferedWriter
+FileReader
+
 7.) What is a try-with-resources?
+
+ A way to automate the closing process.
 
 8.) What makes the BufferedReader different from the BufferedInputStream?
 
+BufferReader - Buffered input character stream - accepts characters
+BufferedInputStream accepts bytes
+
 9.) When would you use the read() method vs. the readline() method?
+
+readLine reads a string from the keyboard
+
+read() reads a single unicode character.
