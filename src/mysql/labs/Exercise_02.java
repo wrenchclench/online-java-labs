@@ -36,4 +36,26 @@ package mysql.labs;
  *       7.) Export the schema to a dump file and copy it to this folder.
  *
  *
+ *
+ *
+ *JB ANSWERS:
+ *
+ *       6a) SELECT*FROM students;
+ *       b) SELECT* FROM teachers WHERE subject = "Art";
+ *       c)
+ *
+ *       SELECT first_name
+        FROM students
+        JOIN teachers_students
+        ON students.id = teachers_students.student_id
+        WHERE teacher_id = 4;
+
+        f)INSERT INTO teachers (first_name, last_name, subject)
+ VALUES ("Bob","Dole", "PoliSci");
+
+
+
+
+ *
+ *
  */

@@ -14,3 +14,26 @@ package mysql.labs;
  *
  */
 
+
+
+/** JB HOMEWORK
+
+ 1 - complete
+ 2- complete
+ 3 - SELECT*FROM sakila.film WHERE length = 61;
+ 4- SELECT first_name,last_name
+ FROM actor
+
+ JOIN film_actor
+
+ ON actor.actor_id = film_actor.actor_id
+ WHERE film_id = 23;
+
+ 5 - SELECT title FROM film
+ JOIN film_category
+ ON film.film_id = film_category.film_id
+ WHERE category_id = 8 AND release_year < 2006;
+
+ 6- complete
+
+ **/
